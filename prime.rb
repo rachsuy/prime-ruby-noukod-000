@@ -2,20 +2,16 @@ require 'math'
 # Add  code here!
 
 def prime?(number)
+  isPrime = true
   start_number = 2
-  if number < 1
-    return false 
+  if number <= 1
+    isPrime = false 
   elsif
   for i in start_number..number
-    
-  end
-  number ==start_number 
-  
-    true
-   else
-        (start_number..number/start_number).none? { |i| number % i == 0}
+    if number % i == 0
+        isPrime = false
     end
-
- 
-  
+    end
+  end
+      isPrime
 end
