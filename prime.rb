@@ -1,5 +1,4 @@
-require 'math'
-# Add  code here!
+
 
 def prime?(number)
   isPrime = true
