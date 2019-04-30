@@ -11,7 +11,7 @@ def prime?(number)
     if number % i == 0
         isPrime = false
     end
-    end
+  end
   end
       isPrime
 end
