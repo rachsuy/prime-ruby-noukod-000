@@ -6,7 +6,7 @@ def prime?(number)
   if number <= 1
     isPrime = false 
   elsif
-  for i in start_number..number
+  for i in start_number..number - 1
     if number % i == 0
         isPrime = false
     end
